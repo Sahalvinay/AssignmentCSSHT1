@@ -1,0 +1,70 @@
+Ass2.html
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTCSS</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+</head>
+<body>
+<div class="second">
+    <h1>Your profiles</h1>
+    <p>See how your different profiles appear in google services</p>    
+    <img src="PXL_20230622_135022190-removebg- (1).png" class="card-img" alt="C:\Users\VINAY SAHAL\Desktop\Stats.COm">
+    <img src="Manchester-United-Logo-PNG-HD-1-removebg-preview.png" class="card-img2" alt="C:\Users\VINAY SAHAL\Desktop\Stats.COm">
+    <button class="btn">see profiles</button>
+</div> 
+</body>
+</html>    
+Style2.css
+/* Reset default browser styles */
+body, h1, p, button, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .second {
+    width: 300px; /* Example width */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Image styles */
+  .card-img {
+    width: 100px; /* Example width */
+    border-radius: 14px;
+    margin-bottom: 10px;
+  }
+
+  .card-img2 {
+    width: 100px; /* Example width */
+    border-radius: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: transparent;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
