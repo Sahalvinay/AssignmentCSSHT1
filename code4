@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flodesk Login</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Flodesk</h1>
+        <form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" placeholder="Email" required>
+            
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+            
+            <button type="submit" class="btn-login">Login to Flodesk</button>
+        </form>
+        
+        <div class="options">
+            <a href="#">Sign up</a>
+            <a href="#">Forgot your password?</a>
+        </div>
+    </div>
+</body>
+</html>
+
+Style4.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  /* Login container styles */
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  /* Login button styles */
+  .btn-login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
+  /* Options styles */
+  .options {
+    text-align: center;
+  }
+  
+  .options a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .options a:last-child {
+    margin-right: 0;
+  }
