@@ -1,0 +1,51 @@
+/* Reset default browser styles */
+body, h1, p, button, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .third {
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  /* Image styles */
+  .card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-img2 {
+    width: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: transparent;
+    color: blue;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
